@@ -74,7 +74,7 @@ Roxxy incluso tiene las siguientes características en el sitio web
 
 
  <h1 align="center">
-  <a href="https://github.com/virtualox-sys"><img src="https://cdn.cleris.es/images/7i3j1.png["></a>
+  <a href="https://github.com/virtualox-sys"><img src="https://cdn.cleris.es/images/7i3j1.png"></a>
 </h1>
 
 **Webhooks: (para desarrollador)**
