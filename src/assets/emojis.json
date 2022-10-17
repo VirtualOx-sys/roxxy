@@ -1,0 +1,63 @@
+{
+  "image":"<:Image:1015675620845424660>",
+  "currency":"<:Gold:1015675948345069629>",
+
+  "games":"<:Games:1015676779496742934>",
+  "admin":"<:Admin:1015677100386156726>",
+  "configs":"<:Config:1015677816836210864>",
+  "utils":"<:Utils:1015678280000610404>", 
+  "success": "<a:Roxxy_Hecho:1015678763469648013>",
+
+  "green":"<a:Roxxy_Accept:1015675319379824640>",
+  "red":"<a:Roxxy_Error:1015675322328432731>",
+
+  "dot": "<:Dot:1015695737012633610>",
+  "fail": "<:Roxxy_Fail:1015678817026711614>",
+
+  "misc": "<:Misc:1015696925640630432>",
+  "mod": "<:Moderator:1015697240314101820>",
+
+  "pogger1": "<:Roxxy:1015695739382407279>",
+  "heartbreak":"<a:Heartbeat:1015697684256018542>",
+  
+  "lock": "<:Lock:1015698309236666478>",
+  "unlock": "<:Unlock:1015698355759890503>",
+
+  "owner": "<:Owner:1015698619438989332>",
+
+  "discord_employee":"<:Discord_Staff:1015699004216066049>",
+  "discord_partner": "<:Discord_Partner:1015699148445593683>",
+  "bughunter_level_1": "<:Bug_Hunter_1:1015699394462498846>",
+  "bughunter_level_2": "<:Bug_Hunter_2:1015699395704004712>",
+  "hypesquad_events": "<:Hypesquad_Events:1015699892313804813>",
+  "house_brilliance": "<:House_Brilliance:1015700768055103628>",
+  "house_bravery": "<:House_Bravery:1015700769229520947>",
+  "house_balance": "<:House_Balance:1015700771041452042>",
+  "early_supporter": "<:Early_Supporter:1015701165347983441>",
+  "verified_bot": "<:Verified_Bot:1015701421242466374>",
+  "verified_developer": "<:Verified_Dev:1015701590109327491>",
+
+
+  "online": "<:Online:1015703249673785384>",
+  "idle": "<:Idle:1015703251548655678>",
+  "offline": "<:Offline:1015703253238939789>",
+  "dnd": "<:Dnd:1015703255357075516>",
+  "verify":"<:Verify:1015703256720211970>",
+
+  "voice": "<:Speaker:1015703988143931472>",
+
+  "pong": "<a:Pong:1015703989465129051>",
+
+  "altdetector":"<:Alt_Detector:1015714562454065237>",
+  "applications":"<:Applications:1015714564471533668>",
+  "config":"<:Config:1015677816836210864>",
+  "utility":"<:Utility:1015714565939540008>",
+  "economy":"<:Gold:1015675948345069629>",
+  "fun":"<a:Fun:1015714570666524743>",
+  "images":"<:Image:1015675620845424660>",
+  "information":"<:Information:1015714556716253225>",
+  "moderation":"<:Moderation:1015714557974544434>",
+  "reactionrole":"<:Reaction_Role:1015714559371255891>",
+  "tickets":"<:Ticket:1015714560767967252>"
+
+}

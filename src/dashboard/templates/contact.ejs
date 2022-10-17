@@ -1,0 +1,122 @@
+<%- include("partials/head", {bot, user, path, description, title: "Roxxy - Contacto"}) %>
+
+        <link rel="stylesheet" href="<%domain%>/css/contact.css" />
+        <script src="<%domain%>/js/contact.js"></script>
+
+    <body>
+     <% if (user) { %>
+     <script>var userID = <%= user.
+     id %> </script>
+        <div class="container-contact">
+            <div class="wrap-contact">
+                <form class="contact-form validate-form">
+                    <span class="contact-form-title"></span>
+                    <div class="wrap-input rs1-wrap-input">
+                        <span class="label">Nombre De Discord</span>
+                        <input disabled class="input" type="text" name="name" placeholder="Nombre De Discord"
+                            
+                                value="<%= user.username %>#<%= user.discriminator %>"/>
+
+                        <span class="input-line"></span>
+                    </div>
+                    <div class="wrap-input rs1-wrap-input">
+                        <span class="label">Correo (opcional)</span>
+                        <input class="input" type="email" name="email" placeholder="Tu Correo"
+                            
+                        />
+                        <span class="input-line"></span>
+                    </div>
+
+                    <div class="wrap-input">
+                        <span class="label">Mensaje</span>
+                        <textarea class="input" name="message" placeholder="Tu Mensaje" required></textarea>
+                        <span class="input-line"></span>
+                    </div>
+                    <div>
+      <span id="captcha" style="color:red"></span>
+      <br>
+      <div id="example1"></div>
+     </div>
+       <br>
+                    <br>
+                     <br>
+                    <br>
+                      <br>
+                      <br>
+                    <div class="container-contact-form-btn">
+                    
+      
+                        <button type="submit">Enviar</button>
+                    </div>
+                </form>
+              
+            </div>
+        </div>
+         <% } else { %>
+   <div class="container-contact">
+            <div class="wrap-contact">
+                <form class="contact-form validate-form">
+                    <span class="contact-form-title"></span>
+                    <div class="wrap-input rs1-wrap-input">
+                        <span class="label">Nombre De Discord</span>
+ <input class="input" type="text" name="name" placeholder="Nombre De Discord" disabled/>
+                        <span class="input-line"></span>
+                    </div>
+                    <div class="wrap-input rs1-wrap-input">
+                        <span class="label">Correo (opcional)</span>
+                        <input class="input" type="email" name="email" placeholder="Correo"
+                            
+                        />
+                        <span class="input-line"></span>
+                    </div>
+                    <div class="wrap-input">
+                        <span class="label">Mensaje</span>
+                        <textarea class="input" name="message" placeholder="Tu Mensaje"></textarea>
+                        <span class="input-line"></span>
+                    </div>
+                    <div class="container-contact-form-btn">
+                    <p>Debe iniciar sesión para contactarnos.</p>
+                   
+                    </div>
+                    <br>
+                    <br>
+                 
+                     <div class="container-contact-form-btn">
+             <button  onclick="window.location.href='/login';" type="button">Acceso</button>
+             </div>
+                </form>
+              
+            </div>
+        </div>
+          <% } %>
+    </body>
+</html>
+    <script type="text/javascript">
+      var verifyCallback = function(response) {
+        alert(response);
+      };
+      var widgetId1;
+      var widgetId2;
+      var onloadCallback = function() {
+        // Renders the HTML element with id 'example1' as a reCAPTCHA widget.
+        // The id of the reCAPTCHA widget is assigned to 'widgetId1'.
+        widgetId1 = grecaptcha.render('example1', {
+          'sitekey' : '6LdmMdIeAAAAAIOB32da2RuYaCv6g4Sp_f1tL3YA',
+          'theme' : 'dark'
+        });
+        widgetId2 = grecaptcha.render(document.getElementById('example2'), {
+          'sitekey' : '6LdmMdIeAAAAAIOB32da2RuYaCv6g4Sp_f1tL3YA'
+        });
+        grecaptcha.render('example3', {
+          'sitekey' : '6LdmMdIeAAAAAIOB32da2RuYaCv6g4Sp_f1tL3YA',
+          'callback' : verifyCallback,
+          'theme' : 'dark'
+        });
+      };
+    </script>
+
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+        async defer>
+    </script>
+
+  <%- include("partials/footer") %>
