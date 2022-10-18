@@ -39,7 +39,7 @@
 
 ## Sobre
 
-Roxxy es un bot de discord hecho a base del código base de Pogy, otro bot de discord que se creo hace exactamente 2 años, el código estaba roto, así que se decidió corregir los errores y convertirlo en un bot multipropósito discord.js v13. ¡Puedes hacer clic en [este enlace](https://pogy.xyz/invite) para invitar al Bot oficial! Además, puede unirse al [servidor de soporte oficial de Pogy](https://pogy.xyz/support) para obtener ayuda.
+Roxxy es una bot de discord hecha a base del código de Pogy, otro bot de discord que se creo hace exactamente 2 años, el código estaba roto, así que se decidió corregir los errores y convertirlo en un bot multipropósito discord.js v13. ¡Puedes hacer clic en [este enlace](https://pogy.xyz/invite) para invitar al Bot oficial! Además, puede unirse al [servidor de soporte oficial de Pogy](https://pogy.xyz/support) para obtener ayuda.
 
 Si te gustó este repositorio, no dudes en dejar una estrella ⭐
 
